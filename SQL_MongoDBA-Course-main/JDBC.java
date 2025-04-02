@@ -4,7 +4,7 @@ public class JDBC{
   public static void main(String[] args){
     try{
       Class.forName("com.mysql.cj.jdbc.Driver");  // Register    // 1
-      System.out.println("11111)
+      System.out.println("11111);
       Connection con = DriverManager.getConnection(
         "jdbc:mysql: // localhost:3306 /friday" , "root","root");
       //here sonoo is database name, root is username and password     // 2
@@ -20,7 +20,7 @@ public class JDBC{
   
       }
     catch(Exception e){
-      System.out.println("Shubham check your program, there is a small error");
+      System.out.println("Anuj check your program, there is a small error");
     }
   }
 }

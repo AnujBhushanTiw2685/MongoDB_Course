@@ -3,35 +3,35 @@ monday
 db.Students.find().pretty()
 {
   _id: ObjectId('67d9b946726d52f6470e5b76'),
-  name: 'Shubham Raj Sharma',
+  name: 'Anuj Bhushan Tiwari',
   location: 'Bihar'
 }
--- db.Students.updateOne({name:'Shubham Raj Sharma'}, {$set:{'name':'Shubh'})
+-- db.Students.updateOne({name:'Anuj Bhushan Tiwari'}, {$set:{'name':'Anuj'})
 -- SyntaxError: Unexpected token, expected "," (1:73)
 
--- [0m[31m[1m>[22m[39m[90m 1 |[39m db[33m.[39m[33mStudents[39m[33m.[39mupdateOne({name[33m:[39m[32m'Shubham Raj Sharma'[39m}[33m,[39m {$set[33m:[39m{[32m'name'[39m[33m:[39m[32m'Shubh'[39m})
+-- [0m[31m[1m>[22m[39m[90m 1 |[39m db[33m.[39m[33mStudents[39m[33m.[39mupdateOne({name[33m:[39m[32m'Anuj Bhushan Tiwari'[39m}[33m,[39m {$set[33m:[39m{[32m'name'[39m[33m:[39m[32m'Anuj'[39m})
 --  [90m   |[39m                                                                          [31m[1m^[22m[39m[0m
--- db.Students.updateOne({'name':'Shubham Raj Sharma'}, {$set:{'name':'Shubh'})
+-- db.Students.updateOne({'name':'Anuj Bhushan Tiwari'}, {$set:{'name':'Anuj'})
 -- SyntaxError: Unexpected token, expected "," (1:75)
 
--- [0m[31m[1m>[22m[39m[90m 1 |[39m db[33m.[39m[33mStudents[39m[33m.[39mupdateOne({[32m'name'[39m[33m:[39m[32m'Shubham Raj Sharma'[39m}[33m,[39m {$set[33m:[39m{[32m'name'[39m[33m:[39m[32m'Shubh'[39m})
+-- [0m[31m[1m>[22m[39m[90m 1 |[39m db[33m.[39m[33mStudents[39m[33m.[39mupdateOne({[32m'name'[39m[33m:[39m[32m'Anuj Bhushan Tiwari'[39m}[33m,[39m {$set[33m:[39m{[32m'name'[39m[33m:[39m[32m'Anuj'[39m})
 --  [90m   |[39m                                                                            [31m[1m^[22m[39m[0m
--- db.Students.updateOne({'name':'Shubham Raj Sharma'} {$set:{'name':'Shubh'})
+-- db.Students.updateOne({'name':'Anuj Bhushan Tiwari'} {$set:{'name':'Anuj'})
 -- SyntaxError: Unexpected token, expected "," (1:52)
 
--- [0m[31m[1m>[22m[39m[90m 1 |[39m db[33m.[39m[33mStudents[39m[33m.[39mupdateOne({[32m'name'[39m[33m:[39m[32m'Shubham Raj Sharma'[39m} {$set[33m:[39m{[32m'name'[39m[33m:[39m[32m'Shubh'[39m})
+-- [0m[31m[1m>[22m[39m[90m 1 |[39m db[33m.[39m[33mStudents[39m[33m.[39mupdateOne({[32m'name'[39m[33m:[39m[32m'Anuj Bhushan Tiwari'[39m} {$set[33m:[39m{[32m'name'[39m[33m:[39m[32m'Anuj'[39m})
 --  [90m   |[39m                                                     [31m[1m^[22m[39m[0m
--- db.Students.updateOne({'name':'Shubham Raj Sharma'},{$set:{'name':'Shubh'})
+-- db.Students.updateOne({'name':'Anuj Bhushan Tiwari'},{$set:{'name':'Anuj'})
 -- SyntaxError: Unexpected token, expected "," (1:74)
 
--- [0m[31m[1m>[22m[39m[90m 1 |[39m db[33m.[39m[33mStudents[39m[33m.[39mupdateOne({[32m'name'[39m[33m:[39m[32m'Shubham Raj Sharma'[39m}[33m,[39m{$set[33m:[39m{[32m'name'[39m[33m:[39m[32m'Shubh'[39m})
+-- [0m[31m[1m>[22m[39m[90m 1 |[39m db[33m.[39m[33mStudents[39m[33m.[39mupdateOne({[32m'name'[39m[33m:[39m[32m'Anuj Bhushan Tiwari'[39m}[33m,[39m{$set[33m:[39m{[32m'name'[39m[33m:[39m[32m'Anuj'[39m})
 --  [90m   |[39m                                                                           [31m[1m^[22m[39m[0m
--- db.Students.updateOne({name:'Shubham Raj Sharma'},{$set:{'name':'Shubh'})
+-- db.Students.updateOne({name:'Anuj Bhushan Tiwari'},{$set:{'name':'Anuj'})
 -- SyntaxError: Unexpected token, expected "," (1:72)
 
--- [0m[31m[1m>[22m[39m[90m 1 |[39m db[33m.[39m[33mStudents[39m[33m.[39mupdateOne({name[33m:[39m[32m'Shubham Raj Sharma'[39m}[33m,[39m{$set[33m:[39m{[32m'name'[39m[33m:[39m[32m'Shubh'[39m})
+-- [0m[31m[1m>[22m[39m[90m 1 |[39m db[33m.[39m[33mStudents[39m[33m.[39mupdateOne({name[33m:[39m[32m'Anuj Bhushan Tiwari'[39m}[33m,[39m{$set[33m:[39m{[32m'name'[39m[33m:[39m[32m'Anuj'[39m})
 --  [90m   |[39m                                                                         [31m[1m^[22m[39m[0m
-db.Students.updateOne({name:'Shubham Raj Sharma'},{$set:{'name':'Shubh'}})
+db.Students.updateOne({name:'Anuj Bhushan Tiwari'},{$set:{'name':'Anuj'}})
 {
   acknowledged: true,
   insertedId: null,
@@ -42,7 +42,7 @@ db.Students.updateOne({name:'Shubham Raj Sharma'},{$set:{'name':'Shubh'}})
 db.Students.find()
 {
   _id: ObjectId('67d9b946726d52f6470e5b76'),
-  name: 'Shubh',
+  name: 'Anuj',
   location: 'Bihar'
 }
 db.Students.insertOne({})
@@ -69,7 +69,7 @@ name: "Joy"});
 db.Students.find()
 {
   _id: ObjectId('67d9b946726d52f6470e5b76'),
-  name: 'Shubh',
+  name: 'Anuj',
   location: 'Bihar'
 }
 {
@@ -77,7 +77,7 @@ db.Students.find()
 }
 {
   _id: 1,
-  name: 'Joy'
+  name: 'Aditya'
 }
 db.Students.insertOne({
 _id :null,
@@ -88,7 +88,7 @@ name: "Ujjwal"});
 }
 db.Students.insertOne({
 _id :null,
-name: "Shubham"});
+name: "Anuj"});
 {
   acknowledged: true,
   insertedId: ObjectId('67d9c0c34528fa06b04ca586')
@@ -96,7 +96,7 @@ name: "Shubham"});
 db.Students.find()
 {
   _id: ObjectId('67d9b946726d52f6470e5b76'),
-  name: 'Shubh',
+  name: 'Anuj',
   location: 'Bihar'
 }
 {
@@ -104,7 +104,7 @@ db.Students.find()
 }
 {
   _id: 1,
-  name: 'Joy'
+  name: 'Aditya'
 }
 {
   _id: ObjectId('67d9c0bd4528fa06b04ca585'),
@@ -112,7 +112,7 @@ db.Students.find()
 }
 {
   _id: ObjectId('67d9c0c34528fa06b04ca586'),
-  name: 'Shubham'
+  name: 'Anuj'
 }
 db.Students.insertOne([
   {title:"NoSQL Distilled",isbn:"0-4696-7030-4"},

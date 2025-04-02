@@ -18,11 +18,11 @@ HAVING COUNT (department) >= 3;
 
 create table vitBhopal (id int primary key, name varchar(20) not null,
   departement varchar(25) not null);
-insert into vitBhopal values(104,'Shubham','cs'),(103,'Anjali','BEd');
+insert into vitBhopal values(104,'Anuj','cs'),(103,'Anjali','BEd');
 
 create table vit (id int primary key, name varchar(20) not null,
   departement varchar(25) not null);
-insert into vit values(104,'Shubham','Samastipur'),(103,'Anjali','Vidyapati');
+insert into vit values(104,'Anuj','Arrah'),(103,'Anjali','Vidyapati');
 
 select * from vit;
 select * from vitBhopal;

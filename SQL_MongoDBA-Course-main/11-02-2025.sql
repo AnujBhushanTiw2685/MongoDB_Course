@@ -6,7 +6,7 @@ create table student(
   s_department varchar(25) not null
   );
 
-insert into student values (1001, "Shubham","CSE"),(1002,"Joy","CSE"),(1003,"Ujjwal","CSE");
+insert into student values (1001, "Anuj","CSE"),(1002,"Aditya","CSE"),(1003,"Ujjwal","CSE");
 
 select * from student;
 
@@ -16,7 +16,7 @@ create table VIT(
   s_cgpa varchar(5) not null
   );
 
-insert into vit values (1001,'8.2'),(1003,'8.5'),(1007,'9.5');
+insert into vit values (1001,'9.7'),(1003,'9.4'),(1007,'9.5');
 select * from vit;
 
 use org123;
